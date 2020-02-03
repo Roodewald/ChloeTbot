@@ -1,0 +1,13 @@
+init
+rem //  npm config set https-proxy http://user:password@proxy-for-https:8080
+npm config set https-proxy http://46.105.57.149:43878/
+npm config set https-proxy https://46.105.57.149:43878/
+
+delite
+
+npm config rm proxy
+npm config rm https-proxy
+npm config --global rm proxy
+npm config --global rm https-proxy
+npm config delete proxy
+npm config delete https-proxy
